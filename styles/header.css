@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    position: fixed;
+    z-index: 3000;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    justify-content: space-between;
+    height: 75px;
+    background: #e30000;
+    background: linear-gradient(0deg, rgba(227, 0, 0, 1) 0%, rgb(12, 12, 252) 70%);
+}   
+
+
+.header-left-section {
+    width: 80px;
+}
+
+.company-logo {
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 7.5px;
+    border-radius: 32.5px;
+}
+.header-mid-section {
+    flex: 1;
+    margin-left: 30px;
+    min-width: 1000px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    font-family: Diplomata, Arial;
+    font-size: 30px;
+    color: white;
+}
+
+.header-right-section {
+    width: 20px;
+}

@@ -1,0 +1,16 @@
+.sidebar {
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    height: 300px;
+    width: 125px;
+    background-color: rgb(185, 158, 255);
+    color: black;
+    border-radius: 25px;
+    padding-top: 30px;
+}
+
+.sidebar-link {
+    margin-left: 10px;
+    font-family: "Gravitas One", Arial;
+}
